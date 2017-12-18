@@ -75,5 +75,4 @@ for epoch in range(1000):
 x = np.random.binomial(1,0.5,(input_layers))
 print("XOR prediction:")
 print(x)
-print(x^1)
 print(predict(x, *params))
